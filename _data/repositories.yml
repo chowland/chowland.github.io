@@ -1,14 +1,20 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - chowland
 
 repo_description_lines_max: 2
 
-github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+
+my_repos:
+  - chowland/AFiD-MuRPhFi
+  - chowland/DIABLO3T
+  - chowland/HaloPencils.jl
+  
+
+fav_repos:
+  - DedalusProject/dedalus
+  - FourierFlows/FourierFlows.jl
+  - NVIDIA/cuDecomp
+  - jipolanco/PencilFFTs.jl
+  - CaNS-World/CaNS 
+  - CliMA/Oceananigans.jl
+  - matplotlib/cmocean
