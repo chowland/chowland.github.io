@@ -264,7 +264,7 @@ scholar:
   last_name: [Howland]
   first_name: ["Christopher J.", "C. J.", "Christopher James"]
 
-  style: apa
+  style: american-physics-society
   locale: en
 
   source: /_bibliography/
