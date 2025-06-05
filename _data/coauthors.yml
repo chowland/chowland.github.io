@@ -1,19 +1,19 @@
-"Taylor":
+"taylor":
   - firstname: ["John R.", "J. R."]
     url: http://www.damtp.cam.ac.uk/user/jrt51/
 
-"De Paoli":
+"de paoli":
   - firstname: ["Marco"]
     url: https://marcodepaoli.com/
 
-"Stevens":
+"stevens":
   - firstname: ["Richard J. A. M."]
     url: https://stevensrjam.github.io/Website/
 
-"Verzicco":
+"verzicco":
   - firstname: ["Roberto"]
     url: http://people.uniroma2.it/roberto.verzicco/
 
-"Shishkina":
+"shishkina":
   - firstname: ["Olga"]
     url: https://www.lfpn.ds.mpg.de/shishkina/
