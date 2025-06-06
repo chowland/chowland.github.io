@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of projects I'm interested in. These are split into two broad categories, but interesting overlaps between these categories often arise.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [convection and phase changes, stratified flows]
 horizontal: false
 ---
 
