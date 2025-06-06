@@ -7,6 +7,8 @@ nav: true
 nav_order: 4
 ---
 
+To keep up with the times, I've started work on a GPU-accelerated codebase that combines what I have learned from using both AFiD and DIABLO. If you're interested in helping out or have any Fortran GPU tips, please get in touch!
+
 {% if site.data.repositories.github_users %}
 
 ## GitHub users
