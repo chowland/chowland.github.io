@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://chowland.github.io/ucd-site//sitemap.xml
+Sitemap: https://chowland.github.io/sitemap.xml
