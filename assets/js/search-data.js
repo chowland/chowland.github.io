@@ -7,452 +7,98 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/chowland/";
+      window.location.href = "/ucd-site/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "Here you can find all my peer-reviewed publications, preprints, theses and other reports. If there are any documents here that you cannot access, please get in touch and I would be happy to send you a copy.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/chowland/publications/";
+            window.location.href = "/ucd-site/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "A growing collection of projects I&#39;m interested in. These are split into two broad categories, but interesting overlaps between these categories often arise.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/chowland/projects/";
+            window.location.href = "/ucd-site/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
           description: "An overview of the software I work on. I try to keep as much open-source as possible, but some very preliminary work may be kept private until it&#39;s ready.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/chowland/repositories/";
+            window.location.href = "/ucd-site/repositories/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/chowland/cv/";
+            window.location.href = "/ucd-site/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
           description: "An overview of the courses I am currently teaching at UCD",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/chowland/teaching/";
+            window.location.href = "/ucd-site/teaching/";
           },
         },{id: "nav-people",
           title: "people",
-          description: "members of the lab or group",
+          description: "members of my research group will appear here, stay tuned!",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/chowland/people/";
+            window.location.href = "/ucd-site/people/";
           },
-        },{id: "post-a-post-with-plotly-js",
-        
-          title: "a post with plotly.js",
-        
-        description: "this is what included plotly.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2025/plotly/";
-          
-        },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-a-post-with-tabs",
-        
-          title: "a post with tabs",
-        
-        description: "this is what included tabs in a post could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/tabs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/typograms/";
-          
-        },
-      },{id: "post-a-post-that-can-be-cited",
-        
-          title: "a post that can be cited",
-        
-        description: "this is what a post that can be cited looks like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/post-citation/";
-          
-        },
-      },{id: "post-a-post-with-pseudo-code",
-        
-          title: "a post with pseudo code",
-        
-        description: "this is what included pseudo code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/pseudocode/";
-          
-        },
-      },{id: "post-a-post-with-code-diff",
-        
-          title: "a post with code diff",
-        
-        description: "this is how you can display code diffs",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/advanced-images/";
-          
-        },
-      },{id: "post-a-post-with-vega-lite",
-        
-          title: "a post with vega lite",
-        
-        description: "this is what included vega lite code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/vega-lite/";
-          
-        },
-      },{id: "post-a-post-with-geojson",
-        
-          title: "a post with geojson",
-        
-        description: "this is what included geojson code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/geojson-map/";
-          
-        },
-      },{id: "post-a-post-with-echarts",
-        
-          title: "a post with echarts",
-        
-        description: "this is what included echarts code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/echarts/";
-          
-        },
-      },{id: "post-a-post-with-chart-js",
-        
-          title: "a post with chart.js",
-        
-        description: "this is what included chart.js code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2024/chartjs/";
-          
-        },
-      },{id: "post-a-post-with-tikzjax",
-        
-          title: "a post with TikZJax",
-        
-        description: "this is what included TikZ code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/tikzjax/";
-          
-        },
-      },{id: "post-a-post-with-bibliography",
-        
-          title: "a post with bibliography",
-        
-        description: "an example of a blog post with bibliography",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/post-bibliography/";
-          
-        },
-      },{id: "post-a-post-with-jupyter-notebook",
-        
-          title: "a post with jupyter notebook",
-        
-        description: "an example of a blog post with jupyter notebook",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/jupyter-notebook/";
-          
-        },
-      },{id: "post-a-post-with-custom-blockquotes",
-        
-          title: "a post with custom blockquotes",
-        
-        description: "an example of a blog post with custom blockquotes",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/custom-blockquotes/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents-on-a-sidebar",
-        
-          title: "a post with table of contents on a sidebar",
-        
-        description: "an example of a blog post with table of contents on a sidebar",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/sidebar-table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-audios",
-        
-          title: "a post with audios",
-        
-        description: "this is what included audios could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/audios/";
-          
-        },
-      },{id: "post-a-post-with-videos",
-        
-          title: "a post with videos",
-        
-        description: "this is what included videos could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/videos/";
-          
-        },
-      },{id: "post-displaying-beautiful-tables-with-bootstrap-tables",
-        
-          title: "displaying beautiful tables with Bootstrap Tables",
-        
-        description: "an example of how to use Bootstrap Tables",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/tables/";
-          
-        },
-      },{id: "post-a-post-with-table-of-contents",
-        
-          title: "a post with table of contents",
-        
-        description: "an example of a blog post with table of contents",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2023/table-of-contents/";
-          
-        },
-      },{id: "post-a-post-with-giscus-comments",
-        
-          title: "a post with giscus comments",
-        
-        description: "an example of a blog post with giscus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2022/giscus-comments/";
-          
-        },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/assets/pdf/example_pdf.pdf";
-          
-        },
-      },{id: "post-a-post-with-diagrams",
-        
-          title: "a post with diagrams",
-        
-        description: "an example of a blog post with diagrams",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2021/diagrams/";
-          
-        },
-      },{id: "post-a-distill-style-blog-post",
-        
-          title: "a distill-style blog post",
-        
-        description: "an example of a distill-style blog post and main elements",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-twitter",
-        
-          title: "a post with twitter",
-        
-        description: "an example of a blog post with twitter",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2020/twitter/";
-          
-        },
-      },{id: "post-a-post-with-disqus-comments",
-        
-          title: "a post with disqus comments",
-        
-        description: "an example of a blog post with disqus comments",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2015/disqus-comments/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2015/math/";
-          
-        },
-      },{id: "post-a-post-with-code",
-        
-          title: "a post with code",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2015/code/";
-          
-        },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2015/images/";
-          
-        },
-      },{id: "post-a-post-with-formatting-and-links",
-        
-          title: "a post with formatting and links",
-        
-        description: "march &amp; april, looking forward to summer",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/chowland/blog/2015/formatting-and-links/";
-          
-        },
-      },{id: "books-the-godfather",
+        },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/chowland/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+              window.location.href = "/ucd-site/books/the_godfather/";
+            },},{id: "news-the-website-has-finally-been-updated",
+          title: 'The website has finally been updated!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/chowland/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-ice-turbulence-interactions",
+          title: 'ice-turbulence interactions',
+          description: "Modelling the complexities of ice-ocean boundary layers",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/ucd-site/projects/ice-turbulence/";
+            },},{id: "projects-internal-waves-and-ocean-mixing",
+          title: 'internal waves and ocean mixing',
+          description: "What are the key breakdown mechanisms of internal waves driving mixing in the ocean?",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/ucd-site/projects/mixing/";
+            },},{id: "projects-moist-atmospheric-convection",
+          title: 'moist atmospheric convection',
+          description: "Capturing the fundamentals of condensation-driven convection in simple models (preprint coming soon)",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/ucd-site/projects/moist_convection/";
+            },},{id: "projects-numerical-methods-for-melting-objects",
+          title: 'numerical methods for melting objects',
+          description: "Developing and analysing phase-field and immersed boundary methods",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/ucd-site/projects/numerics_melting/";
+            },},{id: "projects-pore-scale-dynamics-of-convection",
+          title: 'pore-scale dynamics of convection',
+          description: "Applying immersed boundary methods to simulate dispersion in porous media",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/ucd-site/projects/pore-scale/";
+            },},{id: "projects-nonlinear-effects-in-shear-instabilities",
+          title: 'nonlinear effects in shear instabilities',
+          description: "Linear stability theory tells us about the initial growth of small perturbations. But what happens afterwards?",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/ucd-site/projects/shear_instabilities/";
+            },},{id: "projects-stratified-turbulence",
+          title: 'stratified turbulence',
+          description: "Investigating (non-)universal properties of turbulence in stratified environments, and how this may be affected by factors such as differential diffusion and helicity",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/ucd-site/projects/stratified_turbulence/";
+            },},{id: "projects-turbulent-convection",
+          title: 'turbulent convection',
+          description: "Revealing how external shear and double diffusion can modify heat and salt transport at convective boundary layers",
           section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/chowland/projects/9_project/";
+              window.location.href = "/ucd-site/projects/turbulent_convection/";
             },},{
         id: 'social-bluesky',
         title: 'Bluesky',

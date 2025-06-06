@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://maths.ucd.ie/chowland/sitemap.xml
+Sitemap: https://chowland.github.io/ucd-site//sitemap.xml
